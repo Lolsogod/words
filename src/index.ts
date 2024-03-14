@@ -40,3 +40,12 @@ console.log('-------example-task----------')
 const [resCoverage, resWords, resGrid] = rangedSearch(dictionary2, grid, 100, 500)
 
 prettyOut(resCoverage, resWords, resGrid)
+/*
+console.log('-------just-testing----------')
+let array: number[] = [];
+for (let i = 1; i <= 4; i++) {
+  array.push(i);
+}
+console.log(array);
+console.log(getPermutationByRange(array, 6, 10));
+*/

@@ -12,7 +12,6 @@ export const getPermutationByIndex = <T>(elements: T[], index: number): T[] | nu
     let available = [...elements];
 
     let remainingIndex = index;
-
     for (let i = 1; i <= n; i++) {
         const currentFactorial = factorial(n - i);
         const selectedElementIndex = Math.floor(remainingIndex / currentFactorial);
